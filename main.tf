@@ -12,7 +12,8 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    orgization = "ACG-Terraform-Demos-JR"
+
+    organization = "ACG-Terraform-Demos-JR"
 
     workspaces {
       name = "demo-github-actions"
